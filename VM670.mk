@@ -3,6 +3,8 @@ SUB_MODEL := VM670
 PRODUCT_AAPT_CONFIG := normal mdpi 
 PRODUCT_AAPT_PREF_CONFIG := mdpi 
 
+PRODUCT_COPY_FILES += vendor/lge/thunderc/proprietary/$(SUB_MODEL)/system/etc/media_profiles.xml:system/etc/media_profiles.xml
+
 $(call inherit-product-if-exists, vendor/lge/thunderc/thunderc-vendor.mk)
 $(call inherit-product, device/lge/common/device.mk)
 
@@ -40,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/$(SUB_MODEL)/system/usr/keychars/thunderc_keypad.kcm.bin:system/usr/keychars/thunderc_keypad.kcm.bin
 
 # configs
-PRODUCT_COPY_FILES += vendor/lge/thunderc/proprietary/$(SUB_MODEL)/media_profiles.xml:system/etc/media_profiles.xml 
 PRODUCT_COPY_FILES += vendor/lge/thunderc/proprietary/$(SUB_MODEL)/default.prop:root/default.prop 
 PRODUCT_COPY_FILES += vendor/lge/thunderc/proprietary/$(SUB_MODEL)/adreno_config.txt:system/etc/adreno_config.txt 	
 
@@ -144,7 +145,6 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/lge/thunderc/proprietary/$(SUB_MODEL)/system/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/lge/thunderc/proprietary/$(SUB_MODEL)/system/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
     vendor/lge/thunderc/proprietary/$(SUB_MODEL)/system/lib/libaudioeq.so:system/lib/libaudioeq.so
 	
