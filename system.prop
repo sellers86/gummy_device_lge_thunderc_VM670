@@ -69,32 +69,15 @@ ro.opengles.version=131072
 ro.lge.proximity.delay=100
 ro.ril.def.preferred.network=4
 ro.telephony.default_network=4
-ro.com.android.dateformat=MM-dd-yyyy
 
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=120
 windowsmgr.max_events_per_sec=260
 
-# store launcher in memory - so that when you switch back to home it loads faster 
-ro.HOME_APP_ADJ=1
- 
 # improve image and video quality (when taking pics and vids from cam and showing them in gallery)
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
 debug.performance.tuning=1
 video.accelerate.hw=1
-
-# Increase battery and longer standby time with deeper sleep
-m.sleep_mode=1
-ro.ril.disable.power.collapse=0
-
-# More accurate touch
-movfilter=40
-move hyst=0
- 
-# Faster transfer rate for net connections
-net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960
-net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960
-ro.media.enc.hprof.vid.bps=8000000
 
