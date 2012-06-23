@@ -81,3 +81,7 @@ ro.media.enc.hprof.vid.bps=8000000
 debug.performance.tuning=1
 video.accelerate.hw=1
 
+# Increase battery and longer standby time with deeper sleep
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+
