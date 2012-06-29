@@ -23,4 +23,5 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_CUSTOM_USB_CONTROLLER := ../../vendor/lge/thunderc/proprietary/VM670/UsbController.cpp
 BOARD_EGL_CFG := vendor/lge/thunderc/proprietary/VM670/system/lib/egl/egl.cfg
-#BOARD_CUSTOM_BRCM_PATCHRAM_PLUS := ../../../vendor/lge/thunderc/proprietary/VM670/brcm_patchram_plus.c
+
+TARGET_OTA_ASSERT_DEVICE := thunderc,VM670,thunderc_VM670,LG-VM670
