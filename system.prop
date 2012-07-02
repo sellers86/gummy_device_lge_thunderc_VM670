@@ -85,3 +85,14 @@ video.accelerate.hw=1
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 
+# V6 SuperCharger settings
+ro.ril.hsxpa=3
+ro.ril.gprsclass=12
+ro.ril.hep=1
+ro.ril.enable.dtm=1
+ro.ril.hsdpa.category=28
+ro.ril.enable.a53=1
+ro.ril.enable.3g.prefix=1
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.hsupa.category=9

@@ -10,7 +10,7 @@ USE_CAMERA_STUB := true
 #TARGET_KERNEL_SOURCE := kernel/lge/thunderc
 #TARGET_KERNEL_CONFIG := chaos_defconfig
 TARGET_PREBUILT_KERNEL := device/lge/VM670/kernels/BobZ/zImage
-TARGET_SPECIFIC_HEADER_PATH := device/lge/VM670/include
+TARGET_SPECIFIC_HEADER_PATH := device/lge/common/include
 BOARD_KERNEL_CMDLINE := mem=471M console=ttyMSM2,115200n8 androidboot.hardware=thunderc
 BOARD_KERNEL_BASE := 0x12200000
 BOARD_KERNEL_PAGESIZE := 2048
