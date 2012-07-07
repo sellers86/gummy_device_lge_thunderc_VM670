@@ -84,6 +84,8 @@ video.accelerate.hw=1
 # Increase battery and longer standby time with deeper sleep
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.timeout=3
+ro.ril.enable.sbm.feature=1
 
 # V6 SuperCharger settings
 ro.ril.hsxpa=3
@@ -92,7 +94,6 @@ ro.ril.hep=1
 ro.ril.enable.dtm=1
 ro.ril.hsdpa.category=28
 ro.ril.enable.a53=1
-ro.ril.enable.3g.prefix=1
 ro.ril.htcmaskw1.bitmask=4294967295
 ro.ril.htcmaskw1=14449
 ro.ril.hsupa.category=9
