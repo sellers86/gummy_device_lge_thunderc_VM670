@@ -8,8 +8,8 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 $(call inherit-product, vendor/cm/config/cdma.mk)
 
 #include qcom opensource features
-$(call inherit-product, vendor/qcom/opensource/omx/mm-core/Android.mk)
-$(call inherit-product, vendor/qcom/opensource/omx/mm-video/Android.mk)
+$(call inherit-product, hardware/qcom/media/mm-core/Android.mk)
+$(call inherit-product, hardware/qcom/media/mm-video/Android.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/VM670/VM670.mk)
