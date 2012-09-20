@@ -4,8 +4,8 @@ PRODUCT_RELEASE_NAME := OptimusV
 TARGET_BOOTANIMATION_NAME := vertical-320x480
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/Gummy/products/common_phone.mk)
+$(call inherit-product, vendor/Gummy/products/cdma.mk)
 
 #include qcom opensource features
 $(call inherit-product, vendor/qcom/opensource/omx/mm-core/Android.mk)
@@ -16,7 +16,7 @@ $(call inherit-product, device/lge/VM670/VM670.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := VM670
-PRODUCT_NAME := cm_VM670
+PRODUCT_NAME := gummy_VM670
 PRODUCT_BRAND := Virgin_Mobile
 PRODUCT_MODEL := LG-VM670
 PROUDCT_MANUFACTURER := LGE
